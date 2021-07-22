@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juniors tops</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="start page.css">
+<link rel="stylesheet" type="text/css" href="juniors tops.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href="Project cart.html">
+<link href="Project cart.css">
+</head>
+<body>
+	<header>
+    <div class="overlay"></div>
+    <nav>
+<h1 style="font-size: 200%; text-align: center;">Onestop</h1>
+<ul>
+  <li class="cart"><a href="Project cart.html">
+    <ion-icon name="cart"></ion-icon>Cart<span class="spanclass">0</span></a>
+  </li>
+</ul>
+</nav>
+</header>
+	<div id="div2"><marquee>One stop for all the vogue!</marquee></div>
+	<div class="sidebar">
+<br>
+	<button class="dropbtn" class="active">Women 
+      
+    </button>
+    <div class="dropdown-content">
+      <a href="women's top.html">Tops</a>
+      <a href="women's bottoms.html">Bottoms</a>
+      <a href="women's dresses.html">Dresses</a>
+    </div>
+ 
+  <button class="dropbtn" class="active">Men 
+     
+    </button>
+    <div class="dropdown-content">
+      <a href="mens_shirt.html">Shirts</a>
+      <a href="mens_bottom.html">Bottoms</a>
+      <a href="mens_jacket.html">Jackets</a>
+    </div>
+
+
+  <button class="dropbtn" class="active">Juniors 
+      
+    </button>
+    <div class="dropdown-content">
+      <a href="juniors tops.html">Tops</a>
+      <a href="juniors bottoms.html">Bottoms</a>
+    </div>
+    <a href="Project cart.html">Cart   <i class="fa fa-shopping-cart" style="font-size:30px"></i></a>
+</div>
+   <script type="text/javascript">
+   	var dropdown = document.getElementsByClassName("dropbtn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+   </script>
+	<div class="grid-container">
+<div id="img1">
+	<img id="img11" src="https://ae01.alicdn.com/kf/HTB1z_kNLXXXXXa8XFXXq6xXFXXXd/boys-trackpants-kids-clothes-boys-pants-kids-sports-pants-boy-trousers-fall-2016-new-children-clothing.jpg">
+	<div class="divbody">
+	<h4><center>Boy's Trackpants</center></h4>
+	<p class="price">₹999</p><br>
+	<label for="size">&nbsp;&nbsp;&nbsp;Size:</label>
+	<input type="radio" name="size" id="s">S
+	<input type="radio" name="size" id="m">M
+	<input type="radio" name="size" id="l">L
+</div>
+	<input type="submit" id="boysTrackpants" class="add-cart" value="Add To Cart">
+</div>
+
+<div id="img2">
+	<img src="https://www.oneills.com/media/catalog/category/kids-skinny-march.jpg">
+	<div class="divbody">
+	<h4><center>Skinny Joggers</center></h4>
+	<p class="price">₹999</p><br>
+	<label for="size">&nbsp;&nbsp;&nbsp;Size:</label>
+	<input type="radio" name="size" id="s">S
+	<input type="radio" name="size" id="m">M
+	<input type="radio" name="size" id="l">L
+</div>
+	<input type="submit" id="skinnyJoggers" class="add-cart" value="Add To Cart">
+</div>
+<div id="img3">
+  <img id="img11" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPX17EXJcy96bqRwIIvGlRtY4A-D1nNjgctA&usqp=CAU">
+  <div class="divbody">
+  <h4><center>Denim Pants</center></h4>
+  <p class="price">₹1,299</p><br>
+  <label for="size">&nbsp;&nbsp;&nbsp;Size:</label>
+  <input type="radio" name="size" id="s">S
+  <input type="radio" name="size" id="m">M
+  <input type="radio" name="size" id="l">L
+</div>
+  <input type="submit" id="denimPants" class="add-cart" value="Add To Cart">
+</div>
+<div id="img4">
+  <img id="img11" src="https://my-test-11.slatic.net/p/32e6a3b4fd79804c652b9e630db0ca09.jpg">
+  <div class="divbody">
+  <h4><center>Ripped Denims</center></h4>
+  <p class="price">₹1,399</p><br>
+  <label for="size">&nbsp;&nbsp;&nbsp;Size:</label>
+  <input type="radio" name="size" id="s">S
+  <input type="radio" name="size" id="m">M
+  <input type="radio" name="size" id="l">L
+</div>
+  <input type="submit" id="rippedDenims" class="add-cart" value="Add To Cart">
+</div>
+
+<div id="img5">
+  <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-824,/pub/media/catalog/product/4/4/44192338200_1.jpg?rnd=20200526195200">
+  <div class="divbody">
+  <h4><center>Super Denim Shorts</center></h4>
+  <p class="price">₹899</p><br>
+  <label for="size">&nbsp;&nbsp;&nbsp;Size:</label>
+  <input type="radio" name="size" id="s">S
+  <input type="radio" name="size" id="m">M
+  <input type="radio" name="size" id="l">L
+</div>
+  <input type="submit" id="superDenimShorts" class="add-cart" value="Add To Cart">
+</div>
+<div id="img6">
+  <img id="img11" src="https://i.etsystatic.com/8383955/d/il/fc999f/2167162846/il_340x270.2167162846_2n7g.jpg?version=0">
+  <div class="divbody">
+  <h4><center>Block-Check Overalls</center></h4>
+  <p class="price">₹1,799</p><br>
+  <label for="size">&nbsp;&nbsp;&nbsp;Size:</label>
+  <input type="radio" name="size" id="s">S
+  <input type="radio" name="size" id="m">M
+  <input type="radio" name="size" id="l">L
+</div>
+  <input type="submit" id="blockCheckOveralls" class="add-cart" value="Add To Cart">
+</div>
+</div>
+<br>
+<br>
+<center><button onclick="gotoTop()" id="top">Go to top</button></center>
+<script type="text/javascript">
+  function gotoTop(){
+    window.scrollTo(0,80);
+  }
+</script>
+
+<script  src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<script src="Project cart.js" type="text/javascript"></script>
+
+
+
+
+</body>
+</html>

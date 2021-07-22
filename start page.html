@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="start page.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="Project cart.html" type="text/html">
+
+</head>
+<body onload="display()" async>
+
+<div id="div1">
+	<h1>OneStop</h1>
+</div>
+	<div id="div2"><marquee>One stop for all the vogue!</marquee></div>
+	<div class="sidebar">
+	 
+	<button class="dropbtn" class="active">Women <ion-icon name="arrow-dropdown"></ion-icon>
+      <i class="caret"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="women's top.html">Tops </a>
+      <a href="women's bottoms.html">Bottoms</a>
+      <a href="women's dresses.html">Dresses</a>
+    </div>
+ 
+  <button class="dropbtn" class="active">Men 
+      <i class="caret"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="mens_shirt.html">Shirts</a>
+      <a href="mens_bottom.html">Bottoms</a>
+      <a href="mens_jacket.html">Jackets</a>
+    </div>
+
+
+  <button class="dropbtn" class="active">Juniors 
+      <i class="caret"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="juniors tops.html">Tops</a>
+      <a href="juniors bottoms.html">Bottoms</a>
+    </div><br>
+    <a href="Project cart.html">Cart   <i class="fa fa-shopping-cart" style="font-size:30px"></i></a>
+</div>
+
+   <script type="text/javascript">
+   	var dropdown = document.getElementsByClassName("dropbtn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+   </script>
+   <img src="https://i.pinimg.com/originals/81/c4/fc/81c4fc9a4c06cf57abf23606689f7426.jpg"><br>
+<center><h2 id="getname"></h2></center>
+   <center><h2>Your cart is empty :(</h2></center>
+   <script type="text/javascript">
+    function display(){
+      var a=prompt("Enter your name:","Fred Weasley");
+      document.getElementById("getname").innerHTML="Hello, "+a+" !";
+    }
+  </script>
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+   <script src="Project cart.js" type="text/javascript" async></script>
+</body>
+</html>
